@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.board {
+  font-size: 2.5rem;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 4em;
+  margin: 0 auto;
+}
+
+.board__header {
+  text-align: center;
+  margin: 0.5em auto;
+}
+.board__square {
+  border: 1px solid black;
+  text-align: center;
+  height: 1.2em;
+  min-width: 1.2em;
+}
+
+.board-wrapper {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.buttons-wrapper {
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+}
